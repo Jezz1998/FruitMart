@@ -1,0 +1,26 @@
+name=input("Name: ")
+print("Hello " + name + "! Welcome to 'Fruit Mart'")
+app_1kg_prz = 220.00
+org_1kg_prz = 225.00
+bnn_1kg_prz = 70.00
+grp_1kg_prz = 150.00
+mng_1kg_prz = 120.00
+amnt_app=input("Apple(kg) : ")
+x = float(app_1kg_prz) * float(amnt_app)
+print("Weigt(kg): " + str(amnt_app) + " * " + " Amount/kg : " + str(app_1kg_prz) + " = " + str(x))
+amnt_org=input("Orange(kg) : ")
+y = float(org_1kg_prz) * float(amnt_org)
+print("Weigt(kg): " + str(amnt_org) + " * " + " Amount/kg : " + str(org_1kg_prz) + " = " + str(y))
+amnt_bnn=input("Banana(kg) : ")
+z = float(bnn_1kg_prz) * float(amnt_bnn)
+print("Weigt(kg): " + str(amnt_bnn) + " * " + " Amount/kg : " + str(bnn_1kg_prz) + " = " + str(z))
+amnt_grp=input("Grapes(kg) : ")
+p = float(grp_1kg_prz) * float(amnt_grp)
+print("Weigt(kg): " + str(amnt_grp) + " * " + " Amount/kg : " + str(grp_1kg_prz) + " = " + str(p))
+amnt_mng=input("Mango(kg) : ")
+r = float(mng_1kg_prz) * float(amnt_mng)
+print("Weigt(kg): " + str(amnt_mng) + " * " + " Amount/kg : " + str(mng_1kg_prz) + " = " + str(r))
+sum = x + y + z + p + r
+print("Toatal Amount: " + str(sum))
+
+print("Thanks For The Payment. \n Come Again.")
